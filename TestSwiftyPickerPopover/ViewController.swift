@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyPickerPopover
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tap(_ sender: AnyObject) {
+//        CountdownPickerPopover.appearFrom(originView: sender as! UIView, baseViewController: self, title: nil, dateMode: .date, initialInterval: 0, doneAction: nil, cancelAction: nil)
+        StringPickerPopover.appearFrom(originView: sender as! UIView, baseViewController: self, title: "title", choices: ["1","2","3"], initialRow: 0, doneAction: nil, cancelAction: nil)
+    }
 
 }
 

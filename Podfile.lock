@@ -1,0 +1,12 @@
+PODS:
+  - SwiftyPickerPopover (2.3.0)
+
+DEPENDENCIES:
+  - SwiftyPickerPopover
+
+SPEC CHECKSUMS:
+  SwiftyPickerPopover: 9316db92cbf2eedfcf9b8d4221db698900574da4
+
+PODFILE CHECKSUM: 05f57bb045738293c70fe8bf209034b9769480f0
+
+COCOAPODS: 1.1.0.rc.2

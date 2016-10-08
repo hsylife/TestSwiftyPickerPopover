@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F74489D3D4343957F382DCB /* Pods_TestSwiftyPickerPopover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF31D4ACCB32F55969CB8FF6 /* Pods_TestSwiftyPickerPopover.framework */; };
 		D6279A5D1DA6BDB000871D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6279A5C1DA6BDB000871D30 /* AppDelegate.swift */; };
 		D6279A5F1DA6BDB000871D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6279A5E1DA6BDB000871D30 /* ViewController.swift */; };
 		D6279A621DA6BDB000871D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6279A601DA6BDB000871D30 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		828722C9C27F7F2644B1B870 /* Pods-TestSwiftyPickerPopover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftyPickerPopover.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSwiftyPickerPopover/Pods-TestSwiftyPickerPopover.release.xcconfig"; sourceTree = "<group>"; };
+		CE52E7B1C539021DB034B114 /* Pods-TestSwiftyPickerPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwiftyPickerPopover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSwiftyPickerPopover/Pods-TestSwiftyPickerPopover.debug.xcconfig"; sourceTree = "<group>"; };
 		D6279A591DA6BDB000871D30 /* TestSwiftyPickerPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwiftyPickerPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6279A5C1DA6BDB000871D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6279A5E1DA6BDB000871D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		D6279A631DA6BDB000871D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6279A661DA6BDB000871D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6279A681DA6BDB000871D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF31D4ACCB32F55969CB8FF6 /* Pods_TestSwiftyPickerPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftyPickerPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F74489D3D4343957F382DCB /* Pods_TestSwiftyPickerPopover.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F714179754E47CC9575DCCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE52E7B1C539021DB034B114 /* Pods-TestSwiftyPickerPopover.debug.xcconfig */,
+				828722C9C27F7F2644B1B870 /* Pods-TestSwiftyPickerPopover.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D6279A501DA6BDB000871D30 = {
 			isa = PBXGroup;
 			children = (
 				D6279A5B1DA6BDB000871D30 /* TestSwiftyPickerPopover */,
 				D6279A5A1DA6BDB000871D30 /* Products */,
+				5F714179754E47CC9575DCCC /* Pods */,
+				F34DA950C6411EB06AC29EBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = TestSwiftyPickerPopover;
 			sourceTree = "<group>";
 		};
+		F34DA950C6411EB06AC29EBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF31D4ACCB32F55969CB8FF6 /* Pods_TestSwiftyPickerPopover.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6279A6B1DA6BDB000871D30 /* Build configuration list for PBXNativeTarget "TestSwiftyPickerPopover" */;
 			buildPhases = (
+				38784DB236E75F899B04DA4B /* [CP] Check Pods Manifest.lock */,
 				D6279A551DA6BDB000871D30 /* Sources */,
 				D6279A561DA6BDB000871D30 /* Frameworks */,
 				D6279A571DA6BDB000871D30 /* Resources */,
+				C1D3EE7BD81D1144F0D8CE21 /* [CP] Embed Pods Frameworks */,
+				96E41A88683D950BF0BF766B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38784DB236E75F899B04DA4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96E41A88683D950BF0BF766B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSwiftyPickerPopover/Pods-TestSwiftyPickerPopover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D3EE7BD81D1144F0D8CE21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSwiftyPickerPopover/Pods-TestSwiftyPickerPopover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D6279A551DA6BDB000871D30 /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		D6279A6C1DA6BDB000871D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE52E7B1C539021DB034B114 /* Pods-TestSwiftyPickerPopover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestSwiftyPickerPopover/Info.plist;
@@ -270,6 +346,7 @@
 		};
 		D6279A6D1DA6BDB000871D30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828722C9C27F7F2644B1B870 /* Pods-TestSwiftyPickerPopover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestSwiftyPickerPopover/Info.plist;
@@ -299,6 +376,7 @@
 				D6279A6D1DA6BDB000871D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
