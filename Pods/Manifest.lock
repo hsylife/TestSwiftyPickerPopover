@@ -5,7 +5,7 @@ DEPENDENCIES:
   - SwiftyPickerPopover
 
 SPEC CHECKSUMS:
-  SwiftyPickerPopover: 9316db92cbf2eedfcf9b8d4221db698900574da4
+  SwiftyPickerPopover: fedef863239e09f6fe94fa2279cb41d94b18ec0c
 
 PODFILE CHECKSUM: 05f57bb045738293c70fe8bf209034b9769480f0
 

@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F6F12EDF11102044907A8BFBC991073 /* StringPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3ED8129474EA145FB863AC29E1A5DD /* StringPickerPopover.swift */; };
+		0F6F12EDF11102044907A8BFBC991073 /* StringPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB431022D1C4AA13EFB885F0414CA65E /* StringPickerPopover.swift */; };
+		1F929027366671AE1470B94D65B31DBF /* StringPickerPopover.strings in Resources */ = {isa = PBXBuildFile; fileRef = 323BA1D805F7FEFCA2FFDA8A5EE97FD9 /* StringPickerPopover.strings */; };
 		2DCCB9B9BFD9D13437D78565A9C67C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		39C9F600DB2B18DACC0D4D9EF01AE1F1 /* StringPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F4E4C4F4DB7844322F7B5535E67CC2 /* StringPickerPopoverViewController.swift */; };
-		47BEC5D5C7EC7E5278835B50A5D2C225 /* SwiftyPickerPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2509A12F9BEA8CF4B7AD17C613823A5F /* SwiftyPickerPopover-dummy.m */; };
+		39C9F600DB2B18DACC0D4D9EF01AE1F1 /* StringPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E647096355025E036B1A2DB82AA8F83 /* StringPickerPopoverViewController.swift */; };
+		47BEC5D5C7EC7E5278835B50A5D2C225 /* SwiftyPickerPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CE98629CB94F8A75787F1AD90836AF /* SwiftyPickerPopover-dummy.m */; };
 		6D6D36FACFD9EEDE55644937F9162EB4 /* Pods-TestSwiftyPickerPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B35C27F10DE632B9E489CC4DDFEE74DA /* Pods-TestSwiftyPickerPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97FF2F4642B54086679AE3263CE58C39 /* ColumnStringPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97E2A69D7CA2AC13ECF5531B203508 /* ColumnStringPickerPopover.swift */; };
-		9C71842FFA52AD5D786FA8F351C5DC91 /* CountdownPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295C689A854CDF6DBD71C4806345C63A /* CountdownPickerPopoverViewController.swift */; };
-		A1387FB7AD82035F0D6AD03D42CE1135 /* SwiftyPickerPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3FDF9A38B07C29473549BA627ACB04B /* SwiftyPickerPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B271F5EACA6CED52AE3B373400D9F790 /* AbstractPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C48918064339B7D7AFBCA920852B80 /* AbstractPopover.swift */; };
+		72372914AA7C0FAD249AEA234C3DBEEB /* DatePickerPopover.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1A0FBA7AB174A70DD3C2CEEAE3006FB /* DatePickerPopover.strings */; };
+		765DE2B32ABAA5BB086824500FD12514 /* StringPickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AABFF9FD0A4034AED09E873EBC6CCBC /* StringPickerPopover.storyboard */; };
+		97FF2F4642B54086679AE3263CE58C39 /* ColumnStringPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312763E7FFF8C6BADA033F9927D2AAA5 /* ColumnStringPickerPopover.swift */; };
+		9C71842FFA52AD5D786FA8F351C5DC91 /* CountdownPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D90E582EA9814DCD27EA2288BB04AF /* CountdownPickerPopoverViewController.swift */; };
+		A1387FB7AD82035F0D6AD03D42CE1135 /* SwiftyPickerPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E954A13EA9151AD61C13C131C507E3F5 /* SwiftyPickerPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B271F5EACA6CED52AE3B373400D9F790 /* AbstractPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960157B6C020AB57F92527787E28091 /* AbstractPopover.swift */; };
 		B2C2AB447550CFA22C26371E09CD8FDC /* Pods-TestSwiftyPickerPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FB0047CB48122C9BA0EDFE363948E2 /* Pods-TestSwiftyPickerPopover-dummy.m */; };
-		CACBD992B12677278AA508EF65814D76 /* ColumnStringPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1710E9A1011A0E887DB07AED0F633B1 /* ColumnStringPickerPopoverViewController.swift */; };
-		CB6C98F603A13A0F3186C0BEDF1F59FD /* CountdownPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971610CFFEAEF1CD01604FACF5833E81 /* CountdownPickerPopover.swift */; };
+		B8867E34EC44D7077ED5B87D21ED8360 /* ColumnStringPickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D9E03AADB0A98E337C60202E21AB2 /* ColumnStringPickerPopover.storyboard */; };
+		C26E560D0E85266D203CD5341F57DB87 /* DatePickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CACBFBA1D75744BEFFF57D25B0D2295 /* DatePickerPopover.storyboard */; };
+		CACBD992B12677278AA508EF65814D76 /* ColumnStringPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695D97D88CF6E9D35A7E24D813A8A02B /* ColumnStringPickerPopoverViewController.swift */; };
+		CB6C98F603A13A0F3186C0BEDF1F59FD /* CountdownPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C735A1408C871B82548169034087C11 /* CountdownPickerPopover.swift */; };
 		CF19BFAA902E363E63AA6A96EB1CD7D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E4581D1F4B0FFBB0E31CC0D82F1AFF91 /* DatePickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A96ADF98461829AD8ED4FD9A8DB8BFB /* DatePickerPopoverViewController.swift */; };
-		FFEF74F6010803B789E4273669685D48 /* DatePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA686BFB378A338950B533966F8B03F5 /* DatePickerPopover.swift */; };
+		D98F4BBFDC6295679AC15A52894D6D8F /* CountdownPickerPopover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456744CD9688157275D253F72B3C736E /* CountdownPickerPopover.storyboard */; };
+		E4581D1F4B0FFBB0E31CC0D82F1AFF91 /* DatePickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FCA7EDE08253979FE1A85B1B843FA8 /* DatePickerPopoverViewController.swift */; };
+		FFEF74F6010803B789E4273669685D48 /* DatePickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447F1B7F8A50D700E9C580B9E524CB5F /* DatePickerPopover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,32 +43,38 @@
 /* Begin PBXFileReference section */
 		0AA5391BF6CD3AB8A809FAFC40E58A91 /* SwiftyPickerPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyPickerPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5EEE41573559B45970F785C6835E40 /* Pods-TestSwiftyPickerPopover-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestSwiftyPickerPopover-resources.sh"; sourceTree = "<group>"; };
-		2509A12F9BEA8CF4B7AD17C613823A5F /* SwiftyPickerPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyPickerPopover-dummy.m"; sourceTree = "<group>"; };
-		295C689A854CDF6DBD71C4806345C63A /* CountdownPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownPickerPopoverViewController.swift; path = SwiftyPickerPopover/CountdownPickerPopoverViewController.swift; sourceTree = "<group>"; };
-		2A96ADF98461829AD8ED4FD9A8DB8BFB /* DatePickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerPopoverViewController.swift; path = SwiftyPickerPopover/DatePickerPopoverViewController.swift; sourceTree = "<group>"; };
+		0F6A33690902782C5FCB279677DDB872 /* SwiftyPickerPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyPickerPopover-prefix.pch"; sourceTree = "<group>"; };
+		1960157B6C020AB57F92527787E28091 /* AbstractPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractPopover.swift; path = SwiftyPickerPopover/AbstractPopover.swift; sourceTree = "<group>"; };
+		312763E7FFF8C6BADA033F9927D2AAA5 /* ColumnStringPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnStringPickerPopover.swift; path = SwiftyPickerPopover/ColumnStringPickerPopover.swift; sourceTree = "<group>"; };
+		323BA1D805F7FEFCA2FFDA8A5EE97FD9 /* StringPickerPopover.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = StringPickerPopover.strings; path = ja.lproj/StringPickerPopover.strings; sourceTree = "<group>"; };
+		33A102F0D11A43621DC01E802881C0E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33E58685A8BECE6D1511A09BE6564FFA /* Pods-TestSwiftyPickerPopover-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestSwiftyPickerPopover-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D7F56E01142BECEADF53491EE540310 /* Pods_TestSwiftyPickerPopover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSwiftyPickerPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44214D476E90AA3304F3AAFF66B2EBA6 /* SwiftyPickerPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyPickerPopover.modulemap; sourceTree = "<group>"; };
-		48DFE08593EAD926E0B54513FD92BDE5 /* SwiftyPickerPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyPickerPopover-prefix.pch"; sourceTree = "<group>"; };
+		447F1B7F8A50D700E9C580B9E524CB5F /* DatePickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerPopover.swift; path = SwiftyPickerPopover/DatePickerPopover.swift; sourceTree = "<group>"; };
+		456744CD9688157275D253F72B3C736E /* CountdownPickerPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = CountdownPickerPopover.storyboard; path = SwiftyPickerPopover/CountdownPickerPopover.storyboard; sourceTree = "<group>"; };
 		493AA45D20FB1D216505FDB8F224E287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5083273FDDEDA79712CF35D2FD7EB53D /* SwiftyPickerPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyPickerPopover.modulemap; sourceTree = "<group>"; };
 		53483F7425EC3FEDAF3EF7CFB16BEE0B /* Pods-TestSwiftyPickerPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TestSwiftyPickerPopover.modulemap"; sourceTree = "<group>"; };
 		58FB0047CB48122C9BA0EDFE363948E2 /* Pods-TestSwiftyPickerPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestSwiftyPickerPopover-dummy.m"; sourceTree = "<group>"; };
-		66F4E4C4F4DB7844322F7B5535E67CC2 /* StringPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringPickerPopoverViewController.swift; path = SwiftyPickerPopover/StringPickerPopoverViewController.swift; sourceTree = "<group>"; };
+		5C735A1408C871B82548169034087C11 /* CountdownPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownPickerPopover.swift; path = SwiftyPickerPopover/CountdownPickerPopover.swift; sourceTree = "<group>"; };
+		5E5D9E03AADB0A98E337C60202E21AB2 /* ColumnStringPickerPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ColumnStringPickerPopover.storyboard; path = SwiftyPickerPopover/ColumnStringPickerPopover.storyboard; sourceTree = "<group>"; };
 		67B89E7B3E7CDFD8352400F25230F250 /* Pods-TestSwiftyPickerPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftyPickerPopover.debug.xcconfig"; sourceTree = "<group>"; };
-		8A3ED8129474EA145FB863AC29E1A5DD /* StringPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringPickerPopover.swift; path = SwiftyPickerPopover/StringPickerPopover.swift; sourceTree = "<group>"; };
-		8CF761A07C2D9FB18A8196796CAAA500 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695D97D88CF6E9D35A7E24D813A8A02B /* ColumnStringPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnStringPickerPopoverViewController.swift; path = SwiftyPickerPopover/ColumnStringPickerPopoverViewController.swift; sourceTree = "<group>"; };
+		6AABFF9FD0A4034AED09E873EBC6CCBC /* StringPickerPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = StringPickerPopover.storyboard; path = Base.lproj/StringPickerPopover.storyboard; sourceTree = "<group>"; };
+		6CACBFBA1D75744BEFFF57D25B0D2295 /* DatePickerPopover.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = DatePickerPopover.storyboard; path = Base.lproj/DatePickerPopover.storyboard; sourceTree = "<group>"; };
+		75D90E582EA9814DCD27EA2288BB04AF /* CountdownPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownPickerPopoverViewController.swift; path = SwiftyPickerPopover/CountdownPickerPopoverViewController.swift; sourceTree = "<group>"; };
+		7E647096355025E036B1A2DB82AA8F83 /* StringPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringPickerPopoverViewController.swift; path = SwiftyPickerPopover/StringPickerPopoverViewController.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		971610CFFEAEF1CD01604FACF5833E81 /* CountdownPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountdownPickerPopover.swift; path = SwiftyPickerPopover/CountdownPickerPopover.swift; sourceTree = "<group>"; };
 		9D4A1D4C9A4D12204C2649D5CC35345E /* Pods-TestSwiftyPickerPopover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestSwiftyPickerPopover.release.xcconfig"; sourceTree = "<group>"; };
-		AD7E7643331E3533DA2BA899591B566D /* SwiftyPickerPopover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyPickerPopover.xcconfig; sourceTree = "<group>"; };
+		B1A0FBA7AB174A70DD3C2CEEAE3006FB /* DatePickerPopover.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = DatePickerPopover.strings; path = ja.lproj/DatePickerPopover.strings; sourceTree = "<group>"; };
+		B1FCA7EDE08253979FE1A85B1B843FA8 /* DatePickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerPopoverViewController.swift; path = SwiftyPickerPopover/DatePickerPopoverViewController.swift; sourceTree = "<group>"; };
 		B35C27F10DE632B9E489CC4DDFEE74DA /* Pods-TestSwiftyPickerPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestSwiftyPickerPopover-umbrella.h"; sourceTree = "<group>"; };
-		C3FDF9A38B07C29473549BA627ACB04B /* SwiftyPickerPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyPickerPopover-umbrella.h"; sourceTree = "<group>"; };
-		CE97E2A69D7CA2AC13ECF5531B203508 /* ColumnStringPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnStringPickerPopover.swift; path = SwiftyPickerPopover/ColumnStringPickerPopover.swift; sourceTree = "<group>"; };
+		BB431022D1C4AA13EFB885F0414CA65E /* StringPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringPickerPopover.swift; path = SwiftyPickerPopover/StringPickerPopover.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D73838488C172010DE44762709BBFD33 /* SwiftyPickerPopover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyPickerPopover.xcconfig; sourceTree = "<group>"; };
 		E464FC18CA4A2A5D69574F3F08FF8E01 /* Pods-TestSwiftyPickerPopover-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestSwiftyPickerPopover-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1710E9A1011A0E887DB07AED0F633B1 /* ColumnStringPickerPopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnStringPickerPopoverViewController.swift; path = SwiftyPickerPopover/ColumnStringPickerPopoverViewController.swift; sourceTree = "<group>"; };
-		F9C48918064339B7D7AFBCA920852B80 /* AbstractPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractPopover.swift; path = SwiftyPickerPopover/AbstractPopover.swift; sourceTree = "<group>"; };
-		FA686BFB378A338950B533966F8B03F5 /* DatePickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerPopover.swift; path = SwiftyPickerPopover/DatePickerPopover.swift; sourceTree = "<group>"; };
+		E4CE98629CB94F8A75787F1AD90836AF /* SwiftyPickerPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyPickerPopover-dummy.m"; sourceTree = "<group>"; };
+		E954A13EA9151AD61C13C131C507E3F5 /* SwiftyPickerPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyPickerPopover-umbrella.h"; sourceTree = "<group>"; };
 		FB604FF85CB1EE5AB73A6CB0E3D62478 /* Pods-TestSwiftyPickerPopover-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestSwiftyPickerPopover-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,12 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E785CA4F31AAF69A9EE3660958D931C /* Pods */ = {
+		0CCEDD749A325B7BAC930AC9D7A82AB8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CD4AC074C0BC3390085AD4971750B9D9 /* SwiftyPickerPopover */,
+				33A102F0D11A43621DC01E802881C0E4 /* Info.plist */,
+				5083273FDDEDA79712CF35D2FD7EB53D /* SwiftyPickerPopover.modulemap */,
+				D73838488C172010DE44762709BBFD33 /* SwiftyPickerPopover.xcconfig */,
+				E4CE98629CB94F8A75787F1AD90836AF /* SwiftyPickerPopover-dummy.m */,
+				0F6A33690902782C5FCB279677DDB872 /* SwiftyPickerPopover-prefix.pch */,
+				E954A13EA9151AD61C13C131C507E3F5 /* SwiftyPickerPopover-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyPickerPopover";
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -102,18 +120,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		524AE04FC81A362A2D89E2AC4148BD59 /* Support Files */ = {
+		59759E7E485821508E66A39BBCB66151 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8CF761A07C2D9FB18A8196796CAAA500 /* Info.plist */,
-				44214D476E90AA3304F3AAFF66B2EBA6 /* SwiftyPickerPopover.modulemap */,
-				AD7E7643331E3533DA2BA899591B566D /* SwiftyPickerPopover.xcconfig */,
-				2509A12F9BEA8CF4B7AD17C613823A5F /* SwiftyPickerPopover-dummy.m */,
-				48DFE08593EAD926E0B54513FD92BDE5 /* SwiftyPickerPopover-prefix.pch */,
-				C3FDF9A38B07C29473549BA627ACB04B /* SwiftyPickerPopover-umbrella.h */,
+				876F2A4855DAF3069C217D710AB0A652 /* SwiftyPickerPopover */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyPickerPopover";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5AE3DE881759B74F37C37D1D88C01A7A /* Targets Support Files */ = {
@@ -147,10 +159,28 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2E785CA4F31AAF69A9EE3660958D931C /* Pods */,
+				59759E7E485821508E66A39BBCB66151 /* Pods */,
 				A5BB646FEF39373EE358374718818FAF /* Products */,
 				5AE3DE881759B74F37C37D1D88C01A7A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		876F2A4855DAF3069C217D710AB0A652 /* SwiftyPickerPopover */ = {
+			isa = PBXGroup;
+			children = (
+				1960157B6C020AB57F92527787E28091 /* AbstractPopover.swift */,
+				312763E7FFF8C6BADA033F9927D2AAA5 /* ColumnStringPickerPopover.swift */,
+				695D97D88CF6E9D35A7E24D813A8A02B /* ColumnStringPickerPopoverViewController.swift */,
+				5C735A1408C871B82548169034087C11 /* CountdownPickerPopover.swift */,
+				75D90E582EA9814DCD27EA2288BB04AF /* CountdownPickerPopoverViewController.swift */,
+				447F1B7F8A50D700E9C580B9E524CB5F /* DatePickerPopover.swift */,
+				B1FCA7EDE08253979FE1A85B1B843FA8 /* DatePickerPopoverViewController.swift */,
+				BB431022D1C4AA13EFB885F0414CA65E /* StringPickerPopover.swift */,
+				7E647096355025E036B1A2DB82AA8F83 /* StringPickerPopoverViewController.swift */,
+				CB86FA8E140A6A51883F849806B64AF4 /* Resources */,
+				0CCEDD749A325B7BAC930AC9D7A82AB8 /* Support Files */,
+			);
+			path = SwiftyPickerPopover;
 			sourceTree = "<group>";
 		};
 		A5BB646FEF39373EE358374718818FAF /* Products */ = {
@@ -170,21 +200,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD4AC074C0BC3390085AD4971750B9D9 /* SwiftyPickerPopover */ = {
+		CB86FA8E140A6A51883F849806B64AF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F9C48918064339B7D7AFBCA920852B80 /* AbstractPopover.swift */,
-				CE97E2A69D7CA2AC13ECF5531B203508 /* ColumnStringPickerPopover.swift */,
-				F1710E9A1011A0E887DB07AED0F633B1 /* ColumnStringPickerPopoverViewController.swift */,
-				971610CFFEAEF1CD01604FACF5833E81 /* CountdownPickerPopover.swift */,
-				295C689A854CDF6DBD71C4806345C63A /* CountdownPickerPopoverViewController.swift */,
-				FA686BFB378A338950B533966F8B03F5 /* DatePickerPopover.swift */,
-				2A96ADF98461829AD8ED4FD9A8DB8BFB /* DatePickerPopoverViewController.swift */,
-				8A3ED8129474EA145FB863AC29E1A5DD /* StringPickerPopover.swift */,
-				66F4E4C4F4DB7844322F7B5535E67CC2 /* StringPickerPopoverViewController.swift */,
-				524AE04FC81A362A2D89E2AC4148BD59 /* Support Files */,
+				5E5D9E03AADB0A98E337C60202E21AB2 /* ColumnStringPickerPopover.storyboard */,
+				456744CD9688157275D253F72B3C736E /* CountdownPickerPopover.storyboard */,
+				CEEBE621EC6C03980CB198C404357C94 /* DatePickerPopover.storyboard */,
+				D9546866F119B535747E4F9BFF1F62A4 /* StringPickerPopover.storyboard */,
 			);
-			path = SwiftyPickerPopover;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +257,7 @@
 			buildPhases = (
 				1892D367D123013DA6374D0C7CA8FAA7 /* Sources */,
 				7BD9C0AB93E266BBB78EB1258B2F1125 /* Frameworks */,
+				AFE3CC53A1BEEEF1FF4DA8C3D93024E4 /* Resources */,
 				CB02D5BEACCF61C4A0E05D6A507528CB /* Headers */,
 			);
 			buildRules = (
@@ -271,6 +296,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		AFE3CC53A1BEEEF1FF4DA8C3D93024E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8867E34EC44D7077ED5B87D21ED8360 /* ColumnStringPickerPopover.storyboard in Resources */,
+				D98F4BBFDC6295679AC15A52894D6D8F /* CountdownPickerPopover.storyboard in Resources */,
+				C26E560D0E85266D203CD5341F57DB87 /* DatePickerPopover.storyboard in Resources */,
+				72372914AA7C0FAD249AEA234C3DBEEB /* DatePickerPopover.strings in Resources */,
+				765DE2B32ABAA5BB086824500FD12514 /* StringPickerPopover.storyboard in Resources */,
+				1F929027366671AE1470B94D65B31DBF /* StringPickerPopover.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1892D367D123013DA6374D0C7CA8FAA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -307,6 +348,29 @@
 			targetProxy = F770091E83D79622765328E6CD263097 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEEBE621EC6C03980CB198C404357C94 /* DatePickerPopover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CACBFBA1D75744BEFFF57D25B0D2295 /* DatePickerPopover.storyboard */,
+				B1A0FBA7AB174A70DD3C2CEEAE3006FB /* DatePickerPopover.strings */,
+			);
+			name = DatePickerPopover.storyboard;
+			path = SwiftyPickerPopover;
+			sourceTree = "<group>";
+		};
+		D9546866F119B535747E4F9BFF1F62A4 /* StringPickerPopover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AABFF9FD0A4034AED09E873EBC6CCBC /* StringPickerPopover.storyboard */,
+				323BA1D805F7FEFCA2FFDA8A5EE97FD9 /* StringPickerPopover.strings */,
+			);
+			name = StringPickerPopover.storyboard;
+			path = SwiftyPickerPopover;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4DB81D98FD46554CD618CC1B348CA28B /* Debug */ = {
@@ -391,7 +455,7 @@
 		};
 		8DEA78ACFFAFEE1C3C59704C95C23756 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD7E7643331E3533DA2BA899591B566D /* SwiftyPickerPopover.xcconfig */;
+			baseConfigurationReference = D73838488C172010DE44762709BBFD33 /* SwiftyPickerPopover.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -499,7 +563,7 @@
 		};
 		E493D0921DB737D05CFA41C4DBF3C30B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD7E7643331E3533DA2BA899591B566D /* SwiftyPickerPopover.xcconfig */;
+			baseConfigurationReference = D73838488C172010DE44762709BBFD33 /* SwiftyPickerPopover.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
